@@ -1,0 +1,31 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #09111f;
+}
+
+button {
+  border: none;
+  padding: 16px 40px 16px 40px;
+  color: white;
+  background: #ff2b2b;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  top: 0;
+  border-radius: 20px;
+  box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 6px 0px rgba(120, 120, 120, 0.4);
+  transition: all 0.03s;
+}
+button:focus {
+  background: #ff2b2b;
+  box-shadow: 0px 6px 0px 0px #a72b41, 0px 0px 5px 0px rgba(83, 2, 2, 0.4);
+}
+button:active {
+  box-shadow: 0px 1px 0px 0px #a72b41;
+  top: 5px;
+}
